@@ -1,0 +1,26 @@
+header{
+    padding-inline: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    .logo{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        img{
+            width: 50px;
+            height: 50px;
+        }
+        h1{
+            font-weight: bolder;
+        }
+    }
+    nav{
+        ul{
+            display: flex;
+            gap: 16px;
+            align-items: center;
+        }
+    }
+}
