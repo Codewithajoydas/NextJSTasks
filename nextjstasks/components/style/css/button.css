@@ -1,0 +1,33 @@
+button {
+  font-size: small;
+}
+
+.primary {
+  background: #000;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50px;
+  user-select: none;
+}
+
+.secondary {
+  border: 1px solid #000;
+  padding: 5px 10px;
+  border-radius: 50px;
+  user-select: none;
+}
+
+.ghost {
+  border: 1px solid #000;
+  padding: 5px 10px;
+  border-radius: 50px;
+  background: transparent;
+  user-select: none;
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/*# sourceMappingURL=button.css.map */
